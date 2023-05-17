@@ -1,0 +1,9 @@
+open: No such file or directory
+ERROR: Opening file `/hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/bam_file/GSM5595896.sort.rmdup.unique.bam' failed.
+Couldn't find Mismatch rate in file: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table//stat.txt
+gzip: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table//mut.txt.gz: No such file or directory
+gzip: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table//mut.txt.gz: No such file or directory
+gzip: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table//mut.txt.gz: No such file or directory
+gzip: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table//mut.txt.gz: No such file or directory
+Use of uninitialized value $first in scalar chomp at /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/software/RED-ML/bin/red_ML.pl line 154.
+/opt/gridengine/default/spool/cngb-compute-e02-2/job_scripts/115666: line 136: 0:14:50: command not found
