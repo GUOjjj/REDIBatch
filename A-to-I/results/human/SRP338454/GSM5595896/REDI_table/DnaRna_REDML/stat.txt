@@ -1,0 +1,5 @@
+Mismatch bases    : 9639205
+Total bases       : 3471291927
+Mismatch rate     : 0.00277684
+Unique read number: 34369227
+Mapped read number: 34369227

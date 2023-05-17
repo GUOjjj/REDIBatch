@@ -1,0 +1,56 @@
+REDItoolDnaRna version 1.3
+User command line: -o /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table -i /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/bam_file/GSM5595896.sort.rmdup.unique.bam -f /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/database/reference/reference_genome/hg19/hg19.fa -c 10,10 -q 30,30 -a 6-6 -v 3 -n 0.01 -R -z --gzip
+Analysis ID: REDI
+Analysis time: 22/03/2023 16:47:57
+-i --> RNA-Seq BAM file: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/bam_file/GSM5595896.sort.rmdup.unique.bam
+-j --> DNA-Seq BAM file(s): 
+-I --> Sort RNA-Seq BAM file: 0
+-J --> Sort DNA-Seq BAM file: 0
+-f --> Reference file: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/database/reference/reference_genome/hg19/hg19.fa
+-C --> Base interval to explore: 100000
+-k --> Regions to exclude: 
+-t --> Number of working threads: 1
+-Y --> Work only on region :0-0 : 0
+-o --> Output folder: /hwfssz5/ST_EARTH/P18H19700N0356/guosijia/project/A-to-I/results/human/SRP338454/GSM5595896/REDI_table
+-F --> Infolder folder: 
+-M --> Save a list of columns with quality scores: 0
+-c --> Min. per base coverage DNA-RNA: 10-10
+-q --> Min. per base quality DNA-RNA: 30-30
+-m --> Min. mapping quality DNA-RNA: 30-30
+-O --> Min. homoplymeric length DNA-RNA: 5-5
+-s --> Infer strand: 0 - 1-0
+-g --> Use confidence: 0
+-x --> Strand confidence: 0.70
+-S --> Strand correction : 0
+-G --> GFF annotation to infer strand: 
+-K --> File with positions to exclude: 
+-T --> Work only on given GFF positions: 
+-X --> Sort annotation files: 0
+-e --> Exclude multi hits in RNA-Seq: 0
+-E --> Exclude multi hits in DNA-Seq: 0
+-d --> Exclude duplicates in RNA-Seq: 0
+-D --> Exclude duplicates in DNA-Seq: 0
+-p --> Use paired concardant reads in RNA-Seq: 0
+-P --> Use paired concardant reads in DNA-Seq: 0
+-u --> Consider mapping quality in RNA-Seq: 0
+-U --> Consider mapping quality in DNA-Seq: 0
+-a --> Trim x bases up and y bases down per RNA read: 1 - 6-6
+-A --> Trim x bases up and y bases down per DNA read: 0 - 0-0
+-b --> Blat folder for correction in RNA-Seq: 
+-B --> Blat folder for correction in DNA-Seq: 
+-l --> Remove substitutions in homopolymeric regions for RNA-Seq: 0
+-L --> Remove substitutions in homopolymeric regions for DNA-Seq: 0
+-v --> Min. num. of reads supporting the variation: 3
+-n --> Min. editing frequency for RNA-Seq: 0.01
+-N --> Min. editing frequency for DNA-Seq: 0.10
+-z --> Exclude positions with multiple changes in RNA-Seq: 1
+-Z --> Exclude positions with multiple changes in DNA-Seq: 0
+-W --> Select RNA-Seq positions with defined changes: AC,AG,AT,CA,CG,CT,GA,GC,GT,TA,TC,TG
+-R --> Exclude invariant RNA-Seq positions: 1
+-V --> Exclude sites not supported by DNA-Seq: 0
+-w --> File containing splice sites annotations: 
+-r --> Num. of bases near splice sites to explore: 4
+--gzip --> Gzip output files: 1
+--reads --> Get reads containing reference mismatches: 0
+--addP --> Extract reads alignments with reference mismatches in bed3 format, it requires --reads: 0
+--rmIndel --> Remove positions with Indels in surrounding 5 bases: 0
